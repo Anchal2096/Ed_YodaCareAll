@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be3884b8-432f-4b22-8c50-4ca0c12d00c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CareAll.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CareAll.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +22,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VubOMh8PDwWxFYeueZ5m4GLCXZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -176,7 +179,7 @@
       <workItem from="1578105896367" duration="21915000" />
       <workItem from="1578131880506" duration="16341000" />
       <workItem from="1578216689613" duration="9148000" />
-      <workItem from="1578238968725" duration="321000" />
+      <workItem from="1578238968725" duration="1167000" />
     </task>
     <servers />
   </component>
@@ -196,27 +199,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="402" y="0" key="#functions" timestamp="1578131954070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="0" key="#functions/0.0.1366.728@0.0.1366.728" timestamp="1578131954070" />
-    <state width="1323" height="294" key="GridCell.Tab.0.bottom" timestamp="1578239135368">
+    <state width="1323" height="173" key="GridCell.Tab.0.bottom" timestamp="1578239466737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="294" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578239135368" />
-    <state width="1323" height="294" key="GridCell.Tab.0.center" timestamp="1578239135368">
+    <state width="1323" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578239466737" />
+    <state width="1323" height="173" key="GridCell.Tab.0.center" timestamp="1578239466737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="294" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578239135368" />
-    <state width="1323" height="294" key="GridCell.Tab.0.left" timestamp="1578239135368">
+    <state width="1323" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578239466737" />
+    <state width="1323" height="173" key="GridCell.Tab.0.left" timestamp="1578239466737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="294" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578239135368" />
-    <state width="1323" height="294" key="GridCell.Tab.0.right" timestamp="1578239135368">
+    <state width="1323" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578239466737" />
+    <state width="1323" height="173" key="GridCell.Tab.0.right" timestamp="1578239466737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="294" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578239135368" />
+    <state width="1323" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578239466737" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1578238984471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
