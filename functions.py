@@ -132,4 +132,25 @@ class CareAll:
 
 
 CareAllObj = CareAll()
-CareAllObj.checking_eligiblity_of_Young_Folk()
+# CareAllObj.checking_eligiblity_of_Young_Folk()
+
+# function to find out all the people being currently taken care
+def all_people_being_taken_care():
+    # YoungFolks_Table.insert_many(YoungFolks_List)
+    # Elders_Table.insert_many(Elders_Table_List)
+    cursor = Elders_Table.find({"Availability": 0}, {"_id": 0, "Name": 1, "Taken Care By": 1})
+    elder_list = []
+    for value in cursor:
+        elder_list.append(value)
+    return elder_list
+
+# print(all_people_being_taken_care())
+
+
+# function to find out a given young person is taking care of how many people
+def young_person_taking_care_of(name):
+    cursor = YoungFolks_Table.find({"name": name}, {"_id": 0, "Name": 1, "Taking Care Of": 1})
+    younger_list = []
+    for value in cursor:
+        younger_list.append(value)
+    return younger_list

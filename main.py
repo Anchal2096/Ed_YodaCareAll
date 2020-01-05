@@ -1,4 +1,13 @@
+import test
 from functions import *
+
+
+def run_tests():
+    print("Saving the default data and running tests")
+    Elders_Table.insert_many(Elders_Table_List)
+    YoungFolks_Table.insert_many(YoungFolks_List)
+    test_obj = test.MyTestCase()
+    test_obj.test_person_taking_care_of_elders()
 
 
 def Operations():
@@ -10,7 +19,7 @@ def Operations():
                            "3. Give Rating and Review to a Young Folk\n"
                            "4. Give Rating and Review to an Elder\n"
                            "5. List of all the Elders available.\n"
-                           "6. To Check an Elderly person is taken care by whom?"
+                           "6. To Check an Elderly person is taken care by whom?\n"
                            "7. To know the names of all the Elders a Young Chap is taking care of \n"
                            "8. Make a request as Young Chap and also checking whether he is eligible to make a "
                            "request or not\n "
@@ -35,7 +44,7 @@ def Operations():
         elif choice == 6:
             CareAllObj.taken_care_by()
         elif choice == 7:
-            CareAllObj.taken_care_by()
+            CareAllObj.taking_care()
 
         elif choice == 8:
             CareAllObj.checking_eligiblity_of_Young_Folk()
@@ -55,5 +64,11 @@ def Operations():
 
 
 if __name__ == "__main__":
-    CareAllObj = CareAll()
-    Operations()
+    if "EDYODA_CAREALL" not in client.list_database_names():
+        run_tests()
+        print(f"All people being taken care {all_people_being_taken_care()}")
+        CareAllObj = CareAll()
+        Operations()
+    else:
+        CareAllObj = CareAll()
+        Operations()
